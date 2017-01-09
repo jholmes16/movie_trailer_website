@@ -1,10 +1,8 @@
 import webbrowser
 
 
-# Creates the Movie Title, Poster Image and Youtube trailer
-# Opens Youtube trailer in a webbrowser
 class Movie():
-    # Initalize Movie Title, Poster Image and Youtube trailer
+    """ This class provides a way to store movie related information"""
     def __init__(self, movie_title, poster_image, trailer_youtube):
         self.title = movie_title
         self.poster_image_url = poster_image
