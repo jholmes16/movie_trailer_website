@@ -17,4 +17,7 @@ the_five_heartbeats = media.Movie(
         "https://www.youtube.com/watch?v=IKhZXOU5SCg")
 
 movies = [empire_strikes_back, the_godfather, the_five_heartbeats]
+
+# Calls the fresh fresh_tomatoes script
+# Opens page in a webbrowser by calling the movies class
 fresh_tomatoes.open_movies_page(movies)
